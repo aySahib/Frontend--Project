@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Treact</title>
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="boxes.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+  <script>
+    // Save scroll position
+    window.addEventListener('beforeunload', () => {
+        localStorage.setItem('scrollPosition', window.scrollY);
+    });
+
+    // Restore scroll position
+    window.addEventListener('load', () => {
+        const scrollPosition = localStorage.getItem('scrollPosition');
+        if (scrollPosition) {
+            window.scrollTo(0, parseInt(scrollPosition, 10));
+        }
+    });
+</script>
+</head>
+<body>
+  <div class="headcon">
+    <div class="leftcon">
+      <div class="topcon">
+        <div class="topl">
+          <img class="t" src="/Project/Assets/Icons/T.svg" alt="">
+          Treact
+        </div>
+        <div class="topr">
+          <a class="link" href="#">About</a>
+          <a class="link" href="#">Blog</a>
+          <a class="link" href="#">Pricing</a>
+          <a class="link" href="#">Login</a>
+        </div>
+      </div>
+      <div>
+        <div class="botleft">
+          <h1 class="photels">Find Perfect Hotels <span class="photelss">anywhere you go.</span></h1>
+          <p class="bus">We've been in the hotels business across the world for 5 years now. We assure you that you will always enjoy your stay with us.</p>
+          <div class="buttons">
+            <a class="su" href="#">Sign Up</a>
+            <a class="sh" href="#">Search Hotels</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rightcon">
+      <img class="main" src="/Project/Assets/Images/Main.avif" alt="">
+    </div>
+  </div>
+
+  <div class="secbox">
+      <div class="sec1st">
+        <p class="shieldp">
+          <img class="shield" src="/Project/Assets/Icons/Shield.svg" alt="">
+        </p>
+        <p class="secure">Secure</p>
+        <p class="descr">We strictly only deal with vendors that provide top notch security.</p>
+        <p class="learn">Learn More &#8594;</p>
+      </div>
+      <div class="sec2nd">
+        <p class="shieldp">
+          <img class="shield" src="/Project/Assets/Icons/Support.svg" alt="">
+        </p>
+        <p class="secure">24/7 Support</p>
+        <p class="descr">Lorem ipsum donor amet siti ceali placeholder text</p>
+        <p class="learn">Learn More &#8594;</p>
+      </div>
+      <div class="sec3rd">
+        <p class="shieldp">
+          <img class="shield" src="/Project/Assets/Icons/Customize.svg" alt="">
+        </p>
+        <p class="secure">Customizable</p>
+        <p class="descr">Lorem ipsum donor amet siti ceali placeholder text</p>
+        <p class="learn">Learn More &#8594;</p>
+      </div>
+  </div>
+
+    <div class="thirdbox">
+      <div class="top">
+        <h1 class="pop">Popular Hotels</h1>
+        <div class="buts">
+          <button class="glthan"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="left"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+          <button class="glthan"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="right"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+        </div>
+      </div>
+      <div class="third-out-box">
+        <div class="first-box">
+          <div class="image">
+            <img class="wyatt" src="/Project/Assets/Images/Wyatt.avif" alt="">
+          </div>
+          <div class="box-desc">
+            <div class="title-box">
+              <h5 class="hotel-title">Wyatt Residency</h5>
+              <div class="rating-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <p class="rating">4.8</p>
+              </div>
+            </div>
+            <div class="info-box">
+              <div class="location-box">
+                <div class="pin-border">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+                <p class="location">Rome, Italy</p>
+              </div>
+              <div class="price-box">
+                <div class="price-border">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                </div>
+                <p class="price">USD 39/Day</p>
+              </div>
+            </div>
+            <div class="prop-descr-box">
+              <p class="prop-descr">
+                Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="book-but-border">
+            <button class="book-button">
+              Book Now
+            </button>
+          </div>
+        </div>
+
+        <div class="first-box">
+          <div class="image">
+            <img class="wyatt" src="/Project/Assets/Images/Soho.avif" alt="">
+          </div>
+          <div class="box-desc">
+            <div class="title-box">
+              <h5 class="hotel-title">Soho Paradise</h5>
+              <div class="rating-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <p class="rating">4.9</p>
+              </div>
+            </div>
+            <div class="info-box">
+              <div class="location-box">
+                <div class="pin-border">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+                <p class="location">Ibiza, Spain</p>
+              </div>
+              <div class="price-box">
+                <div class="price-border">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                </div>
+                <p class="price">USD 50/Day</p>
+              </div>
+            </div>
+            <div class="prop-descr-box">
+              <p class="prop-descr">
+                Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="book-but-border">
+            <button class="book-button">
+              Book Now
+            </button>
+          </div>
+        </div>
+
+
+        <div class="first-box">
+          <div class="image">
+            <img class="wyatt" src="/Project/Assets/Images/Baja.avif" alt="">
+          </div>
+          <div class="box-desc">
+            <div class="title-box">
+              <h5 class="hotel-title">Hotel Baja</h5>
+              <div class="rating-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <p class="rating">5.0</p>
+              </div>
+            </div>
+            <div class="info-box">
+              <div class="location-box">
+                <div class="pin-border">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+                <p class="location">Palo Alto, CA</p>
+              </div>
+              <div class="price-box">
+                <div class="price-border">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                </div>
+                <p class="price">USD 19/Day</p>
+              </div>
+            </div>
+            <div class="prop-descr-box">
+              <p class="prop-descr">
+                Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="book-but-border">
+            <button class="book-button">
+              Book Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="fourthbox">
+      <div class="ttours-box">
+        <h2 class="tours">
+          Trending Tours
+        </h2>
+        <p class="tours-descr">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.
+        </p>
+        <div class="view-tours-box">
+          <a href="#" class="view-tours">
+            View All Tours
+          </a>
+          <div class="rarrow-box">
+            <svg viewBox="0 0 31.49 31.49">
+              <path fill="currentColor" d="M21.205 5.007c-.429-.444-1.143-.444-1.587 0-.429.429-.429 1.143 0 1.571l8.047 8.047H1.111C.492 14.626 0 15.118 0 15.737c0 .619.492 1.127 1.111 1.127h26.554l-8.047 8.032c-.429.444-.429 1.159 0 1.587.444.444 1.159.444 1.587 0l9.952-9.952c.444-.429.444-1.143 0-1.571l-9.952-9.953z"></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="bahamas-whole-box">
+        <div class="bahamas-border">
+          <img class="bahamas" src="/Project/Assets/Images/Bahamas.avif" alt="">
+        </div>
+        <div class="bahamas-description-border">
+          <div class="beachfront-box">
+            <p class="beachfront">
+              Beachfront
+            </p>
+            <p class="nine-nine">
+              $99 <span class="per-day">per day</span>
+            </p>
+          </div>
+          <div class="trip-box">
+            <h5 class="trip">
+              A Trip to the Bahamas and the Carribean Ocean
+            </h5>
+          </div>
+          <div class="tips-box">
+            <div class="trending-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="up"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+              <p class="trending">TRENDING</p>
+            </div>
+            <div class="trending-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="up"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <p class="trending">7 DAY TOUR</p>
+            </div>
+            <div class="trending-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="up"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <p class="trending">AFRICA</p>
+            </div>
+          </div>
+          <div class="book-box">
+            <b class="book-but">Book Now</b>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="bahamas-whole-box">
+        <div class="bahamas-border">
+          <img class="bahamas" src="/Project/Assets/Images/Mariana.avif" alt="">
+        </div>
+        <div class="bahamas-description-border">
+          <div class="beachfront-box">
+            <p class="beachfront">
+              Cruise
+            </p>
+            <p class="nine-nine">
+              $169 <span class="per-day">per day</span>
+            </p>
+          </div>
+          <div class="trip-box">
+            <h5 class="trip">
+              Cruise to the Mariana Trench and the Phillipines
+            </h5>
+          </div>
+          <div class="tips-box">
+            <div class="trending-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="up"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+              <p class="trending">TRENDING</p>
+            </div>
+            <div class="trending-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="up"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <p class="trending">15 DAY TOUR</p>
+            </div>
+            <div class="trending-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="up"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <p class="trending">AUSTRALIA</p>
+            </div>
+          </div>
+          <div class="book-box">
+            <b class="book-but">Book Now</b>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fifth-box">
+      <div class="blueplex-box">
+        <img class="blueplex" src="/Project/Assets/Images/Blueplex.avif" alt="">
+      </div>
+      <div class="service-box">
+        <div class="best-servive-box">
+          <h2 class="service">
+            We have the best service.
+          </h2>
+        </div>
+        <p class="service-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="stats-outside-box">
+          <div class="left-outside-box">
+            <div class="countries-box">
+              <p class="one-nine">192</p>
+              <p class="countries">Countries</p>
+            </div>
+            <div class="hotels-box">
+              <p class="one-nine">2093</p>
+              <p class="countries">Rooms</p>
+            </div>
+          </div>
+          <div class="right-outside-box">
+            <div class="rooms-box">
+              <p class="one-nine">479</p>
+              <p class="countries">Hotels</p>
+            </div>
+            <div class="workers-box">
+              <p class="one-nine">10347</p>
+              <p class="countries">Workers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

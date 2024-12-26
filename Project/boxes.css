@@ -1,0 +1,570 @@
+body {
+  height: 6000px;
+}
+
+.secbox {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 13px;
+  padding-right: 15px;
+}
+
+.sec1st {
+  height: 258px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec2nd {
+  height: 258px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec3rd {
+  height: 258px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.shield {
+  width: 32px;
+  border-radius: 70px;
+  padding: 16px;
+  background-color: rgb(247, 250, 252);
+}
+
+.secure {
+  margin-top: -5px;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 700;
+  color: rgb(36, 62, 99);
+}
+
+.descr {
+  margin-top: -5px;
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 500;
+  color: rgb(80, 101, 130);
+  width: 256px;
+  text-align: center;
+  line-height: 21px;
+}
+
+.learn {
+  margin-top: 2px;
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 700;
+  color: rgb(131, 68, 255);
+}
+
+/* 3rd box */
+
+.thirdbox {
+  padding-left: 630px;
+  padding-right: 600px;
+  height: 870px;
+}
+
+.pop {
+  font-size: 48px;
+  font-family: Inter;
+  letter-spacing: 1.2px;
+  font-weight: 900;
+  color: rgb(36, 62, 99);
+}
+
+.top {
+  margin-top: 38px;
+  width: 1280px;
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buts {
+  margin-right: 0px;
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.glthan {
+  background-color: rgb(100, 21, 255);
+  border: none;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  font-size: 16px;
+  font-family: Inter;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.left .right {
+  display: inline;
+}
+
+.third-out-box {
+  width: 1300px;
+  height: 600px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.first-box {
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  width: 382px;
+  height: 561px;
+  overflow: hidden;
+  margin-right: 35px;
+}
+
+.image {
+  height: 256px;
+  width: 100%;
+}
+
+.wyatt {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.box-desc {
+  height: 178px;
+  padding: 24px 40px;
+  border-left: 1px solid rgb(221, 221, 221);
+  border-right: 1px solid rgb(221, 221, 221);
+}
+
+.title-box {
+  display: flex;
+  height: 36px;
+  align-items: center;
+  width: 302px;
+}
+
+.hotel-title {
+  color: rgb(36, 62, 99);
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.rating-box {
+  display: flex;
+  align-items: center;
+  margin-right: 1px;
+  margin-left: auto;
+}
+
+.star , .rating {
+  display: inline-block;
+}
+
+.star {
+  color: rgb(236, 201, 75);
+  fill: rgb(236, 201, 75);
+  padding-right: 10px;
+}
+
+.rating {
+  color: rgb(36, 62, 99);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.info-box {
+  display: flex;
+  margin-top: 16px;
+  width: 302px;
+  height: 28px;
+}
+
+.location-box {
+  display: flex;
+  align-items: center;
+  
+}
+
+.location, .price {
+  padding-left: 8px;
+}
+
+.price-box {
+  display: flex;
+  align-items: center;
+  margin-left: 28px;
+}
+
+.pin , .sign {
+  height: 12px;
+}
+
+.location , .price {
+  display: inline;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(45, 55, 72);
+}
+
+.pin-border, .price-border {
+  color: white;
+  background-color: rgb(74, 85, 104);
+  height: 28px;
+  width: 28px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prop-descr-box {
+  width: 302px;
+  height: 84px;
+  margin-top: 16px;
+}
+
+.prop-descr {
+  font-size: 14px;
+  font-family: Inter;
+  color: rgb(36, 62, 99);
+  line-height: 28px;
+  margin: 0;
+}
+
+.book-but-border {
+  height: 75px;
+  width: 100%;
+}
+
+.book-button {
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 700;
+  color: rgb(247, 250, 252);
+  background-color: rgb(100, 21, 255);
+  border: none;
+}
+
+/* 4th box */
+
+.fourthbox {
+  padding-left: 630px;
+  padding-bottom: 96px;
+  display: flex;
+}
+
+.ttours-box {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 555px;
+  width: 426px;
+}
+
+.tours {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: 1.2px;
+  color: rgb(36, 62, 99);
+  margin-top: 30px;
+}
+
+.tours-descr {
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 500;
+  color: rgb(124, 139, 161);
+  line-height: 29.25px;
+}
+
+.view-tours-box {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.view-tours {
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 700;
+  color: rgb(100, 21, 255);
+  text-decoration-line: none;
+}
+
+.rarrow-box{
+  height: 30px ;
+  width: 30px;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.rarrow-box, svg {
+  color: rgb(100, 21, 255);
+  height: 20px;
+  width: 20px;
+}
+
+.bahamas-whole-box {
+  margin-top: 25px;
+  margin-left: 5px;
+  box-sizing: border-box;
+  height: 555px;
+  width: 426px;
+  padding-left: 103px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bahamas-border {
+  height: 320px;
+  width: 320px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.bahamas {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.beachfront-box {
+  height: 50px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.beachfront{
+  display: inline-block;
+  font-family: Inter;
+  font-size: 18px;
+  color: rgb(100, 21, 255);
+  font-weight: 700;
+  left: 0;
+  position: absolute;
+}
+
+.nine-nine {
+  display: inline-block;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(45, 55, 72);
+  right: 0;
+  position: absolute;
+}
+
+.per-day {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #718096;
+}
+
+.trip-box {
+  height: 65px;
+}
+
+.trip {
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 700;
+  color: rgb(36, 62, 99);
+  height: 60px;
+  line-height: 30px;
+  margin-top: 0px;
+}
+
+.tips-box {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trending-box {
+  align-items: center;
+  display: flex;
+}
+
+.up {
+  height: 20px;
+  width: 20px;
+  color: rgb(113, 128, 150);
+}
+
+.trending {
+  font-size: 12px;
+  font-family: Inter;
+  font-weight: 600;
+  color: rgb(113, 128, 150);
+  margin-left: 4px;
+}
+
+.book-box {
+  height: 76px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-but {
+  background-color: rgb(100, 21, 255);
+  color: rgb(247, 250, 252);
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 700;
+  padding: 12px 32px;
+  width: 100%;
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.fifth-box {
+  height: 833px;
+  width: 1280px;
+  box-sizing: border-box;
+  margin-left: 630px;
+  padding-top: 96px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blueplex-box {
+  height: 641px;
+  width: 533px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.blueplex {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.service-box {
+  height: 640px;
+  width: 641px;
+  box-sizing: border-box;
+  padding: 32px 0px;
+}
+
+.best-servive-box {
+  box-sizing: border-box;
+  width: 609px;
+  height: 102px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service {
+  font-size: 48px;
+  font-family: Inter;
+  font-weight: 900;
+  color: rgb(36, 62, 99);
+  letter-spacing: 1.2px;
+}
+
+.service-descr {
+  font-size: 18px;
+  margin-top: 16px;
+  font-family: Inter;
+  font-weight: 500;
+  color: rgb(124, 139, 161);
+  line-height: 29.59px;
+}
+
+.stats-outside-box {
+  height: 260px;
+  width: 100%;
+  padding-top: 64px;
+  display: flex;
+}
+
+.left-outside-box {
+  width: 50%;
+}
+
+.right-outside-box {
+  width: 50%;
+}
+
+.countries-box {
+  width: 100%;
+  height: 50%;
+}
+
+.hotels-box {
+  width: 100%;
+  height: 50%;
+}
+
+.left-outside-box {
+  width: 50%;
+}
+
+.rooms-box {
+  width: 100%;
+  height: 50%;
+}
+
+.workers-box {
+  width: 100%;
+  height: 50%;
+}
+
+.one-nine {
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: Inter;
+  font-weight: 700;
+  color: rgb(100, 21, 255);
+}
+
+.countries {
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(74, 85, 104);
+  margin-top: -20px;
+}
