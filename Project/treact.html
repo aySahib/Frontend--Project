@@ -1,72 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Treact</title>
-  <link rel="stylesheet" href="header.css">
-  <link rel="stylesheet" href="boxes.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
-  <script>
-    // Save scroll position
-    window.addEventListener('beforeunload', () => {
-        localStorage.setItem('scrollPosition', window.scrollY);
-    });
-
-    // Restore scroll position
-    window.addEventListener('load', () => {
-        const scrollPosition = localStorage.getItem('scrollPosition');
-        if (scrollPosition) {
-            window.scrollTo(0, parseInt(scrollPosition, 10));
-        }
-    });
-</script>
-</head>
-<body>
-  <div class="headcon">
-    <div class="leftcon">
-      <div class="topcon">
-        <div class="topl">
-          <img class="t" src="/Project/Assets/Icons/T.svg" alt="">
-          Treact
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Treact</title>
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="boxes.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:wght@400;500;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="headcon">
+      <div class="leftcon">
+        <div class="topcon">
+          <div class="topl">
+            <img class="t" src="/Project/Assets/Icons/T.svg" alt="" />
+            <p class="tt">Treact</p>
+          </div>
+          <div class="topr">
+            <a class="link" href="#">About</a>
+            <a class="link" href="#">Blog</a>
+            <a class="link" href="#">Pricing</a>
+            <a class="link" href="#">Login</a>
+          </div>
         </div>
-        <div class="topr">
-          <a class="link" href="#">About</a>
-          <a class="link" href="#">Blog</a>
-          <a class="link" href="#">Pricing</a>
-          <a class="link" href="#">Login</a>
-        </div>
-      </div>
-      <div>
-        <div class="botleft">
-          <h1 class="photels">Find Perfect Hotels <span class="photelss">anywhere you go.</span></h1>
-          <p class="bus">We've been in the hotels business across the world for 5 years now. We assure you that you will always enjoy your stay with us.</p>
-          <div class="buttons">
-            <a class="su" href="#">Sign Up</a>
-            <a class="sh" href="#">Search Hotels</a>
+        <div>
+          <div class="botleft">
+            <h1 class="photels">
+              Find Perfect Hotels <span class="photelss">anywhere you go.</span>
+            </h1>
+            <p class="bus">
+              We've been in the hotels business across the world for 5 years
+              now. We assure you that you will always enjoy your stay with us.
+            </p>
+            <div class="buttons">
+              <a class="su" href="#">Sign Up</a>
+              <a class="sh" href="#">Search Hotels</a>
+            </div>
           </div>
         </div>
       </div>
+      <div class="rightcon">
+        <img class="main" src="/Project/Assets/Images/Main.avif" alt="" />
+      </div>
     </div>
-    <div class="rightcon">
-      <img class="main" src="/Project/Assets/Images/Main.avif" alt="">
-    </div>
-  </div>
 
-  <div class="secbox">
+    <div class="secbox">
       <div class="sec1st">
         <p class="shieldp">
-          <img class="shield" src="/Project/Assets/Icons/Shield.svg" alt="">
+          <img class="shield" src="/Project/Assets/Icons/Shield.svg" alt="" />
         </p>
         <p class="secure">Secure</p>
-        <p class="descr">We strictly only deal with vendors that provide top notch security.</p>
+        <p class="descr">
+          We strictly only deal with vendors that provide top notch security.
+        </p>
         <p class="learn">Learn More &#8594;</p>
       </div>
       <div class="sec2nd">
         <p class="shieldp">
-          <img class="shield" src="/Project/Assets/Icons/Support.svg" alt="">
+          <img class="shield" src="/Project/Assets/Icons/Support.svg" alt="" />
         </p>
         <p class="secure">24/7 Support</p>
         <p class="descr">Lorem ipsum donor amet siti ceali placeholder text</p>
@@ -74,192 +70,408 @@
       </div>
       <div class="sec3rd">
         <p class="shieldp">
-          <img class="shield" src="/Project/Assets/Icons/Customize.svg" alt="">
+          <img
+            class="shield"
+            src="/Project/Assets/Icons/Customize.svg"
+            alt=""
+          />
         </p>
         <p class="secure">Customizable</p>
         <p class="descr">Lorem ipsum donor amet siti ceali placeholder text</p>
         <p class="learn">Learn More &#8594;</p>
       </div>
-  </div>
+      <div class="pink-one">
+        <svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" class="pink-one"><g transform="translate(300,300)"><path d="M125,-160.4C159.9,-146.7,184.6,-107.3,178.8,-70.9C173.1,-34.4,137,-0.8,128.8,47.3C120.7,95.5,140.6,158.2,123.8,198.4C107,238.6,53.5,256.3,5.4,248.9C-42.7,241.5,-85.4,208.9,-112.7,172.1C-140,135.3,-151.8,94.2,-146.3,59.7C-140.8,25.1,-117.9,-2.9,-104,-30.1C-90.1,-57.3,-85,-83.7,-69.1,-103.5C-53.3,-123.4,-26.6,-136.7,9.2,-149.4C45.1,-162,90.1,-174,125,-160.4Z" fill="#FFB4BC"></path></g></svg>
+      </div>
+    </div>
 
     <div class="thirdbox">
       <div class="top">
         <h1 class="pop">Popular Hotels</h1>
         <div class="buts">
-          <button class="glthan"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="left"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
-          <button class="glthan"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="right"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+          <button class="glthan">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="left"
+            >
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+          </button>
+          <button class="glthan">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="right"
+            >
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </button>
         </div>
       </div>
       <div class="third-out-box">
         <div class="first-box">
           <div class="image">
-            <img class="wyatt" src="/Project/Assets/Images/Wyatt.avif" alt="">
+            <img class="wyatt" src="/Project/Assets/Images/Wyatt.avif" alt="" />
           </div>
           <div class="box-desc">
             <div class="title-box">
               <h5 class="hotel-title">Wyatt Residency</h5>
               <div class="rating-box">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="star"
+                >
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                  ></polygon>
+                </svg>
                 <p class="rating">4.8</p>
               </div>
             </div>
             <div class="info-box">
               <div class="location-box">
                 <div class="pin-border">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-              </div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="pin"
+                  >
+                    <path
+                      d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                    ></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
                 <p class="location">Rome, Italy</p>
               </div>
               <div class="price-box">
                 <div class="price-border">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="sign"
+                  >
+                    <line x1="12" y1="1" x2="12" y2="23"></line>
+                    <path
+                      d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+                    ></path>
+                  </svg>
                 </div>
                 <p class="price">USD 39/Day</p>
               </div>
             </div>
             <div class="prop-descr-box">
               <p class="prop-descr">
-                Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.
+                Lorem ipsum dolor sit amet, consectur dolori adipiscing elit,
+                sed do eiusmod tempor nova incididunt ut labore et dolore magna
+                aliqua.
               </p>
             </div>
           </div>
           <div class="book-but-border">
-            <button class="book-button">
-              Book Now
-            </button>
+            <button class="book-button">Book Now</button>
           </div>
         </div>
 
         <div class="first-box">
           <div class="image">
-            <img class="wyatt" src="/Project/Assets/Images/Soho.avif" alt="">
+            <img class="wyatt" src="/Project/Assets/Images/Soho.avif" alt="" />
           </div>
           <div class="box-desc">
             <div class="title-box">
               <h5 class="hotel-title">Soho Paradise</h5>
               <div class="rating-box">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="star"
+                >
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                  ></polygon>
+                </svg>
                 <p class="rating">4.9</p>
               </div>
             </div>
             <div class="info-box">
               <div class="location-box">
                 <div class="pin-border">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-              </div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="pin"
+                  >
+                    <path
+                      d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                    ></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
                 <p class="location">Ibiza, Spain</p>
               </div>
               <div class="price-box">
                 <div class="price-border">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="sign"
+                  >
+                    <line x1="12" y1="1" x2="12" y2="23"></line>
+                    <path
+                      d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+                    ></path>
+                  </svg>
                 </div>
                 <p class="price">USD 50/Day</p>
               </div>
             </div>
             <div class="prop-descr-box">
               <p class="prop-descr">
-                Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.
+                Lorem ipsum dolor sit amet, consectur dolori adipiscing elit,
+                sed do eiusmod tempor nova incididunt ut labore et dolore magna
+                aliqua.
               </p>
             </div>
           </div>
           <div class="book-but-border">
-            <button class="book-button">
-              Book Now
-            </button>
+            <button class="book-button">Book Now</button>
           </div>
         </div>
 
-
         <div class="first-box">
           <div class="image">
-            <img class="wyatt" src="/Project/Assets/Images/Baja.avif" alt="">
+            <img class="wyatt" src="/Project/Assets/Images/Baja.avif" alt="" />
           </div>
           <div class="box-desc">
             <div class="title-box">
               <h5 class="hotel-title">Hotel Baja</h5>
               <div class="rating-box">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="star"
+                >
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                  ></polygon>
+                </svg>
                 <p class="rating">5.0</p>
               </div>
             </div>
             <div class="info-box">
               <div class="location-box">
                 <div class="pin-border">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-              </div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="pin"
+                  >
+                    <path
+                      d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                    ></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
                 <p class="location">Palo Alto, CA</p>
               </div>
               <div class="price-box">
                 <div class="price-border">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="sign"
+                  >
+                    <line x1="12" y1="1" x2="12" y2="23"></line>
+                    <path
+                      d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+                    ></path>
+                  </svg>
                 </div>
                 <p class="price">USD 19/Day</p>
               </div>
             </div>
             <div class="prop-descr-box">
               <p class="prop-descr">
-                Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.
+                Lorem ipsum dolor sit amet, consectur dolori adipiscing elit,
+                sed do eiusmod tempor nova incididunt ut labore et dolore magna
+                aliqua.
               </p>
             </div>
           </div>
           <div class="book-but-border">
-            <button class="book-button">
-              Book Now
-            </button>
+            <button class="book-button">Book Now</button>
           </div>
         </div>
       </div>
     </div>
 
-
     <div class="fourthbox">
       <div class="ttours-box">
-        <h2 class="tours">
-          Trending Tours
-        </h2>
+        <h2 class="tours">Trending Tours</h2>
         <p class="tours-descr">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad
+          minim veniam.
         </p>
         <div class="view-tours-box">
-          <a href="#" class="view-tours">
-            View All Tours
-          </a>
-          <div class="rarrow-box">
-            <svg viewBox="0 0 31.49 31.49">
-              <path fill="currentColor" d="M21.205 5.007c-.429-.444-1.143-.444-1.587 0-.429.429-.429 1.143 0 1.571l8.047 8.047H1.111C.492 14.626 0 15.118 0 15.737c0 .619.492 1.127 1.111 1.127h26.554l-8.047 8.032c-.429.444-.429 1.159 0 1.587.444.444 1.159.444 1.587 0l9.952-9.952c.444-.429.444-1.143 0-1.571l-9.952-9.953z"></path>
+          <a href="#" class="view-tours"> View All Tours 
+            <svg class="rraroww" viewBox="0 0 31.49 31.49">
+              <path
+                fill="currentColor"
+                d="M21.205 5.007c-.429-.444-1.143-.444-1.587 0-.429.429-.429 1.143 0 1.571l8.047 8.047H1.111C.492 14.626 0 15.118 0 15.737c0 .619.492 1.127 1.111 1.127h26.554l-8.047 8.032c-.429.444-.429 1.159 0 1.587.444.444 1.159.444 1.587 0l9.952-9.952c.444-.429.444-1.143 0-1.571l-9.952-9.953z"
+              ></path>
             </svg>
-          </div>
+          </a>
         </div>
       </div>
       <div class="bahamas-whole-box">
         <div class="bahamas-border">
-          <img class="bahamas" src="/Project/Assets/Images/Bahamas.avif" alt="">
+          <img
+            class="bahamas"
+            src="/Project/Assets/Images/Bahamas.avif"
+            alt=""
+          />
         </div>
         <div class="bahamas-description-border">
           <div class="beachfront-box">
-            <p class="beachfront">
-              Beachfront
-            </p>
-            <p class="nine-nine">
-              $99 <span class="per-day">per day</span>
-            </p>
+            <p class="beachfront">Beachfront</p>
+            <p class="nine-nine">$99 <span class="per-day">per day</span></p>
           </div>
           <div class="trip-box">
-            <h5 class="trip">
-              A Trip to the Bahamas and the Carribean Ocean
-            </h5>
+            <h5 class="trip">A Trip to the Bahamas and the Carribean Ocean</h5>
           </div>
           <div class="tips-box">
             <div class="trending-box">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="up"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="up"
+              >
+                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                <polyline points="17 6 23 6 23 12"></polyline>
+              </svg>
               <p class="trending">TRENDING</p>
             </div>
             <div class="trending-box">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="up"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="up"
+              >
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
               <p class="trending">7 DAY TOUR</p>
             </div>
             <div class="trending-box">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="up"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="up"
+              >
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
               <p class="trending">AFRICA</p>
             </div>
           </div>
@@ -269,19 +481,18 @@
         </div>
       </div>
 
-
       <div class="bahamas-whole-box">
         <div class="bahamas-border">
-          <img class="bahamas" src="/Project/Assets/Images/Mariana.avif" alt="">
+          <img
+            class="bahamas"
+            src="/Project/Assets/Images/Mariana.avif"
+            alt=""
+          />
         </div>
         <div class="bahamas-description-border">
           <div class="beachfront-box">
-            <p class="beachfront">
-              Cruise
-            </p>
-            <p class="nine-nine">
-              $169 <span class="per-day">per day</span>
-            </p>
+            <p class="beachfront">Cruise</p>
+            <p class="nine-nine">$169 <span class="per-day">per day</span></p>
           </div>
           <div class="trip-box">
             <h5 class="trip">
@@ -290,15 +501,57 @@
           </div>
           <div class="tips-box">
             <div class="trending-box">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="up"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="up"
+              >
+                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                <polyline points="17 6 23 6 23 12"></polyline>
+              </svg>
               <p class="trending">TRENDING</p>
             </div>
             <div class="trending-box">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="up"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="up"
+              >
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
               <p class="trending">15 DAY TOUR</p>
             </div>
             <div class="trending-box">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="up"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="up"
+              >
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
               <p class="trending">AUSTRALIA</p>
             </div>
           </div>
@@ -311,15 +564,22 @@
 
     <div class="fifth-box">
       <div class="blueplex-box">
-        <img class="blueplex" src="/Project/Assets/Images/Blueplex.avif" alt="">
+        <img
+          class="blueplex"
+          src="/Project/Assets/Images/Blueplex.avif"
+          alt=""
+        />
       </div>
       <div class="service-box">
         <div class="best-servive-box">
-          <h2 class="service">
-            We have the best service.
-          </h2>
+          <h2 class="service">We have the best service.</h2>
         </div>
-        <p class="service-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p class="service-descr">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
         <div class="stats-outside-box">
           <div class="left-outside-box">
             <div class="countries-box">
@@ -344,5 +604,243 @@
         </div>
       </div>
     </div>
-</body>
+
+    <div class="sixth-box">
+      <div class="poppost-out-box">
+        <h2 class="poppost">Popular Posts</h2>
+        <div class="sixth-inside-box">
+          <div class="insi-left-box">
+            <div class="canyon-box">
+              <img
+                class="canyon"
+                src="/Project/Assets/Images/Canyon.avif"
+                alt=""
+              />
+            </div>
+            <h5 class="ttips">
+              Tips on how to travel safely in foreign countries
+            </h5>
+            <p class="ttips-description">
+              Lorem ipsum dolor sit amet, consecteturious adipiscing elit, sed
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua now
+              ele.
+            </p>
+            <div class="pfp-box">
+              <div class="charl-box">
+                <img
+                  class="charlotte"
+                  src="/Project/Assets/Images/Charlotte.avif"
+                  alt=""
+                />
+              </div>
+              <div class="charlotte-box">
+                <p class="pfp-name">Charlotte Delos</p>
+                <p class="occupation">Travel Advocate</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="insi-right-box">
+            <div class="canyon-box">
+              <img
+                class="canyon"
+                src="/Project/Assets/Images/Beach.avif"
+                alt=""
+              />
+            </div>
+            <h5 class="ttips">Enjoying the beach life while on a vacation</h5>
+            <p class="ttips-description">
+              Lorem ipsum dolor sit amet, consecteturious adipiscing elit, sed
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua now
+              ele.
+            </p>
+            <div class="pfp-box">
+              <div class="charl-box">
+                <img
+                  class="charlotte"
+                  src="/Project/Assets/Images/Adam.avif"
+                  alt=""
+                />
+              </div>
+              <div class="charlotte-box">
+                <p class="pfp-name">Adam Cuppy</p>
+                <p class="occupation">Vlogger</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rec-posts-out-box">
+        <h2 class="rec-posts">Recent Posts</h2>
+        <div class="posts-column">
+          <div>
+            <h5 class="most-out">Getting the most out of your vacation</h5>
+            <h6 class="author">Aaron Patterson</h6>
+          </div>
+          <div class="pic-box">
+            <img class="canoe" src="/Project/Assets/Images/Canoe.avif" alt="" />
+          </div>
+        </div>
+        <div class="postss-column">
+          <div>
+            <h5 class="most-out">Choosing the perfect Safaris in Africa</h5>
+            <h6 class="author">Sam Phipphen</h6>
+          </div>
+          <div class="pic-box">
+            <img class="canoe" src="/Project/Assets/Images/Van.avif" alt="" />
+          </div>
+        </div>
+        <div class="postss-column">
+          <div>
+            <h5 class="most-out">Hiking during the monsoon in Asia</h5>
+            <h6 class="author">Tony Hawk</h6>
+          </div>
+          <div class="pic-box">
+            <img class="canoe" src="/Project/Assets/Images/Camper.avif" alt="" />
+          </div>
+        </div>
+        <div class="postss-column">
+          <div>
+            <h5 class="most-out">Must carry items while traveling to Thailand</h5>
+            <h6 class="author">Himali Turn</h6>
+          </div>
+          <div class="pic-box">
+            <img class="canoe" src="/Project/Assets/Images/Things.avif" alt="" />
+          </div>
+        </div>
+        <div class="postss-column">
+          <div>
+            <h5 class="most-out">An extremely funny trip to the Swiss Alps</h5>
+            <h6 class="author">Noami Watts</h6>
+          </div>
+          <div class="pic-box">
+            <img class="canoe" src="/Project/Assets/Images/Peace.avif" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="seventh-box">
+      <div class="purple-one">
+        <svg viewBox="0 0 600 600" class="purple-one"><g transform="translate(300,300)"><path d="M153.6,-239C199.1,-209.8,236,-167.2,258.4,-118C280.9,-68.9,288.9,-13.1,281.2,40.4C273.5,93.9,250.1,145.2,214.7,186.1C179.3,226.9,131.9,257.4,80,272.6C28.2,287.8,-28.2,287.8,-80,272.6C-131.9,257.4,-179.3,226.9,-214.7,186.1C-250.1,145.2,-273.5,93.9,-281.2,40.4C-288.9,-13.1,-280.9,-68.9,-258.4,-118C-236,-167.2,-199.1,-209.8,-153.6,-239C-108.1,-268.3,-54.1,-284.1,0,-284.1C54.1,-284.1,108.1,-268.3,153.6,-239Z" fill="currentColor"></path></g></svg>
+      </div>
+      <div class="test-out-box">
+        <h2 class="test">Testimonials</h2>
+        <p class="test-descr">Here are what some of our amazing customers are saying about our hotels &amp; tours. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <blockquote class="bq">
+          <svg viewBox="0 0 24 24" class="quotes"><path fill="currentColor" d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 01-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 01-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z"></path></svg>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.<svg viewBox="0 0 24 24" class="quotes"><path fill="currentColor" d="M19.417 6.679C20.447 7.773 21 9 21 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311-1.804-.167-3.226-1.648-3.226-3.489a3.5 3.5 0 013.5-3.5c1.073 0 2.099.49 2.748 1.179zm-10 0C10.447 7.773 11 9 11 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311C4.591 12.322 3.17 10.841 3.17 9a3.5 3.5 0 013.5-3.5c1.073 0 2.099.49 2.748 1.179z"></path></svg>
+        </blockquote>
+        <div class="pfpp-box">
+          <div class="charll-box">
+            <img
+              class="charlottee"
+              src="/Project/Assets/Images/Charlotte.avif"
+              alt=""
+            />
+          </div>
+          <div class="charlotte-box">
+            <p class="pfpp-name">Charlotte Hale</p>
+            <p class="occupationn">CEO, Delos Inc.</p>
+          </div>
+        </div>
+      </div>
+        <div class="plane-box">
+         <img class="plane" src="/Project/Assets/Images/Plane.avif" alt="">
+         <div class="arrows-out-box">
+            <button class="arrowss-but">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="leftt"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </button>
+            <button class="arrowss-but">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="leftt"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+         </div>
+        </div>
+    </div>
+
+    <div class="eighth-box">
+      <div class="light-pink">
+        <svg viewBox="0 0 600 600" class="light-pinkk"><g transform="translate(300,300)"><path d="M86.4,-125.7C108.9,-102.5,122,-73.2,149.6,-37.1C177.2,-0.9,219.4,42,223.6,86.1C227.8,130.3,194.2,175.6,150.6,200.7C107,225.9,53.5,231,5.2,223.8C-43.1,216.7,-86.2,197.3,-109.5,165.6C-132.8,133.8,-136.3,89.6,-138.8,52.1C-141.4,14.6,-143,-16.2,-147,-61.4C-151,-106.6,-157.5,-166.1,-133.4,-188.8C-109.3,-211.5,-54.7,-197.2,-11.4,-181.6C31.9,-166,63.9,-148.9,86.4,-125.7Z" fill="currentColor"></path></g></svg>
+      </div>
+      <div class="beachfront-boxx">
+        <img class="beachfrontt" src="/Project/Assets/Images/Beachfront.avif" alt="">
+      </div>
+      <div class="questions-box">
+        <h2 class="questions">Questions</h2>
+        <p class="questions-descr">Here are some frequently asked questions about our hotels from our loving customers. Should you have any other questions, feel free to reach out via the contact form below.</p>
+        <div class="questions-boxx">
+          <p class="lunch">Is lunch provided free of cost ?</p>
+          <div class="plus-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="pluss"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+          </div>
+        </div>
+        <div class="questions-boxxx">
+          <p class="lunch">Do you have 2 Bedroom suites ?</p>
+          <div class="plus-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="pluss"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+          </div>
+        </div>
+        <div class="questions-boxxx">
+          <p class="lunch">Are Wi-Fi costs included in the price ?</p>
+          <div class="plus-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="pluss"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+          </div>
+        </div>
+        <div class="questions-boxxx">
+          <p class="lunch">Where can I reach you for support ?</p>
+          <div class="plus-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="pluss"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nineth-box">
+      <div class="newsletter-whole-box">
+        <div class="Newsletter-box">
+          <svg viewBox="0 0 64 64" class="mail"><g fill-rule="evenodd" stroke="currentColor" clip-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="20.8346" d="M7095 7523l142 58 2 386h-636l-3-386 144-58" transform="matrix(.0922 0 0 .09295 -605.96046 -682.9347)"></path><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="20.8346" d="M6603 7967l318-232 318 232" transform="matrix(.0922 0 0 .09295 -605.96046 -682.9347)"></path><path fill="none" stroke-width="20.8346" d="M6603 7581l257 198M7239 7581l-259 197" transform="matrix(.0922 0 0 .09295 -605.96046 -682.9347)"></path><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="20.8346" d="M6746 7689v-273h348v276M6853 7474h193M6792 7541h254M6792 7608h254M6792 7675h254" transform="matrix(.0922 0 0 .09295 -605.96046 -682.9347)"></path></g></svg>
+        </div>
+        <div class="newsletterr">
+          <h2 class="newsl">Newsletter</h2>
+          <p class="news-descr">Subscribe now to get our latest blog posts.</p>
+        </div>
+       <form class="email-whole-form">
+        <input class="emaill" type="email" placeholder="Your Email Address">
+        <button class="submitt" type="submit">Subscribe Now</button>
+       </form>
+      </div>
+      
+    </div>
+
+    <div class="tenth-box">
+      <div class="inside-footer-box">
+        <div class="treact-footer-box">
+          <img class="treactss" src="/Project/Assets/Icons/T.svg" alt="">
+          <h5 class="treactt">Treact</h5>
+        </div>
+        <div class="footer-info">
+          <a class="foot-info" href="#">Home</a>
+          <a class="foot-info-two" href="#">About</a>
+          <a class="foot-info-two" href="#">Contact Us</a>
+          <a class="foot-info-two" href="#">Blog</a>
+          <a class="foot-info-two" href="#">Reviews</a>
+        </div>
+        <div class="foot-icons-box">
+          <svg class="foot-icons">
+            <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"></path>
+          </svg>
+          <svg class="foot-iconss">
+            <path d="M22.162 5.656a8.384 8.384 0 01-2.402.658A4.196 4.196 0 0021.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 00-7.126 3.814 11.874 11.874 0 01-8.62-4.37 4.168 4.168 0 00-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 01-1.894-.523v.052a4.185 4.185 0 003.355 4.101 4.21 4.21 0 01-1.89.072A4.185 4.185 0 007.97 16.65a8.394 8.394 0 01-6.191 1.732 11.83 11.83 0 006.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 002.087-2.165z"></path>
+          </svg>
+          <svg class="foot-iconss">
+            <path d="M21.543 6.498C22 8.28 22 12 22 12s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.896 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.107 4 12 4 12 4s5.896 0 7.605.476c.945.266 1.687 1.04 1.938 2.022zM10 15.5l6-3.5-6-3.5v7z"></path>
+          </svg>
+        </div>
+        <div class="footer">
+          <p class="footerr">© Copyright 2020, Treact Inc. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </body>  
 </html>
